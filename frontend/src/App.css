@@ -374,6 +374,9 @@ text-align: left;
   width: 2rem; 
   filter: invert(70%);
 }
+.footer a{
+  cursor: pointer;
+}
 .website-rights{
   margin-top: 3rem;
 }
@@ -534,7 +537,6 @@ margin-bottom: 0rem;
 /* Responsive menu mobile */
 .mob-menu{
   height: 3.5rem;
-  background-color: #8f6868;
   display: flex;
   align-items: center;
   padding: 1.5rem;
@@ -549,18 +551,4 @@ margin-bottom: 0rem;
   width: 2.5rem;
 }
 
-}
-
-
-
-/* Coding Data */
-
-.codingData {
-  position: fixed;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%); /* Keeps it vertically centered */
-}
-.codingData img{
-  width: 3rem;
 }

@@ -19,7 +19,7 @@ const MobileMenu = () => {
     }, [mode]);
   return (
     <>
-    <div className='mob-menu' style={{backgroundColor:mode?"#b4acac":"#8f6868"}}>
+    <div className='mob-menu' style={{backgroundColor:mode?"#b4acac":"rgb(113 106 146)"}}>
         <Link to="home" smooth="true" duration={1200}>
         <img src="https://img.icons8.com/?size=100&id=i6fZC6wuprSu&format=png&color=000000" alt="" />
         </Link>

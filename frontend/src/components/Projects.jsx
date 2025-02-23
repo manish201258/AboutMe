@@ -46,10 +46,10 @@ const Projects = () => {
               </div>
             ))}
           </div>
-          <button className='carousel-control-prev' type='button' data-bs-target='#projectCarousel' data-bs-slide='prev'>
+          <button className='carousel-control-prev' style={{filter:"invert(60%)"}} type='button' data-bs-target='#projectCarousel' data-bs-slide='prev'>
             <span className='carousel-control-prev-icon' aria-hidden='true'></span>
           </button>
-          <button className='carousel-control-next' type='button' data-bs-target='#projectCarousel' data-bs-slide='next'>
+          <button className='carousel-control-next' style={{filter:"invert(60%)"}} type='button' data-bs-target='#projectCarousel' data-bs-slide='next'>
             <span className='carousel-control-next-icon' aria-hidden='true'></span>
           </button>
         </div>

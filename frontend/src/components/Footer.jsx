@@ -15,9 +15,9 @@ const Footer = () => {
           <div>
             <li className="fs-3 fw-bold mb-2 text-danger">Get In Touch</li>
             <div className="d-flex justify-content-center gap-3"style={{filter:mode?'invert()':""}}>
-                <img src="/instagram.png" alt="instagram" />
-                <img src="/linkdin.png" alt="linkdin" />
-                <img src="/github.png" alt="github" />
+            <a href="https://www.instagram.com/themanish.here/" target="_blank"><img src="/instagram.png" alt="instagram" /></a>
+                <a href="https://www.linkedin.com/in/manish-jangir-4a46a324a/" target="_blank"><img src="/linkdin.png" alt="linkdin" /></a>
+                <a href="https://github.com/manish201258" target="_blank"><img src="/github.png" alt="github" /></a>
             </div>
           </div>
         </div>
