@@ -4,7 +4,7 @@ const contact = async (req, res) => {
     try {
         const { username, email, message } = req.body;
 
-        const userContactData = await Contact.create({
+        await Contact.create({
             username,
             email,
             message
