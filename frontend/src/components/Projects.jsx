@@ -7,8 +7,8 @@ const projects = [
     title: 'Movie Booking (Cinema Cove)',
     description: 'I developed a full-stack Movie Booking Website using the MERN stack (MongoDB, Express.js, React, and Node.js). This project allows users to browse movies, select showtimes, and book seats in a seamless and interactive manner.',
     image: '/project1.png',
-    repoLink: 'https://github.com/manish201258/CinemaCove-Backend',
-    liveLink: 'https://cinemacove.netlify.app/',
+    repoLink: 'https://github.com/manish201258/MovieTicketBooking',
+    liveLink: 'https://bookmovieticket.vercel.app/',
   },
   {
     title: 'Chater Box',
