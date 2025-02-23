@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <div className='navbar d-flex justify-content-around align-items-center pt-4'>
       <div className='navbar-logo d-flex justify-content-between'>
-      <h5>About <span className='text-danger'>Me.</span></h5>
+      <h5 className='m-0'>About <span className='text-danger'>Me.</span></h5>
       <a className='link-icon-mobile' href="https://www.linkedin.com/in/manish-jangir-4a46a324a/" target='_blank'></a>
       </div>
       <div className='nav-links '>

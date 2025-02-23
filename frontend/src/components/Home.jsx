@@ -12,26 +12,6 @@ import MobileMenu from './MobileMenu'
  
 const Home = () => {
 
-    // Coding Profile Data
-    const [easy,setEasy] = useState(0);
-    const [medium,setMedium] = useState(0);
-    const [hard,setHard] = useState(0);
-
-useEffect(()=>{
-
-  const codingProfile= async()=>{
-    const res = await fetch("https://alfa-leetcode-api.onrender.com/manish201258/solved",
-      {
-        method:"GET"
-      }
-    )
-    const data = await res.json()
-    console.log(data)
-  }
-  codingProfile();
-},[])
-
-
   return (
     <>
     <div className='home'>
@@ -55,20 +35,6 @@ useEffect(()=>{
     <div>
       <MobileMenu/>
     </div>
-    <div className='codingData'>
-    <img src="https://img.icons8.com/?size=100&id=wDGo581Ea5Nf&format=png&color=000000" alt="" />
-    <div>
-      <p className='m-0 fw-bold ' style={{color:"#22c55e"}}>Easy <span>
-        {easy}
-        </span></p>
-      <p className='m-0 fw-bold'style={{color:"#eab308"}}>Medium <span>
-        {medium}
-        </span></p>
-      <p className='m-0 fw-bold'style={{color:"#f43f5e"}}>Hard <span>
-        {hard}
-        </span></p>
-    </div>
-</div>
     </>
   )
 }

@@ -556,9 +556,11 @@ margin-bottom: 0rem;
 /* Coding Data */
 
 .codingData {
-  background-color: #ccd5cc;
   position: fixed;
   top: 50%;
   right: 0;
   transform: translateY(-50%); /* Keeps it vertically centered */
+}
+.codingData img{
+  width: 3rem;
 }
