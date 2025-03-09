@@ -115,6 +115,9 @@ li p{
 .abouttext{
   color:#aca4a4;
 }
+.class-data{
+  width: 33%;
+}
 /* Skills */
 .skills{
   margin-bottom: 6rem;
@@ -504,6 +507,7 @@ left: -38px;
  .class-data{
   justify-content: center !important;
 gap: 2rem;
+   width: 70% !important;
  }
 
  /* skills */
