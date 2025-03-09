@@ -13,7 +13,7 @@ const AboutMe = () => {
             }}>
                 I'm a final-year BCA student with a deep passion for technology and a love for reading. I'm self-motivated with a can-do attitude, thriving in challenging and dynamic environments. I'm eager to learn new things that interest me and continuously improve. Currently, I'm seeking a competitive position where I can enhance my skills and contribute meaningfully to a professional organization.
             </p>
-            <div className='class-data d-flex justify-content-between' style={{width:"33%"}}>
+            <div className='class-data d-flex justify-content-between'>
                 {/* Cgpa */}
             <div className='d-flex flex-column align-items-center'>
             <p className='m-0 fs-3 fw-bold'>07.88+</p>
