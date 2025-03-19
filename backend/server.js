@@ -6,7 +6,7 @@ const connectDb = require("./models/db");
 
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://itsmanishportfolio.vercel.app',
+  'https://about-manish.vercel.app',
   'https://portfoliowebsitebackend-e714.onrender.com'
 ];
 
