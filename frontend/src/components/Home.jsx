@@ -15,7 +15,9 @@ const Home = () => {
   return (
     <>
     <div className='home'>
-
+      <div>
+        Visitors
+      </div>
     <Navbar />
           <Profile />
         
@@ -33,6 +35,7 @@ const Home = () => {
         <Footer />
     </div>
     <div>
+
       <MobileMenu/>
     </div>
     </>
