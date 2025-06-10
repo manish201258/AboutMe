@@ -37,7 +37,7 @@ const Profile = () => {
     return () => clearInterval(interval);
   }, [animationStep, displayedText, isRemoving, currentSkillIndex, skills]);
   const handleResumeOpen=()=>{
-    window.open('/resume.pdf','_blank')
+    window.open('https://drive.google.com/file/d/1dxcMr6kCqnX32KtWkf1Vk0-L4QXI3VNl/view?usp=sharing','_blank')
   }
 
   
